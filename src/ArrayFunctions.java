@@ -45,7 +45,6 @@ public class ArrayFunctions {
 		String [] words =phrase.split(" ");
 		StringBuilder revB=new StringBuilder();
 		
-		
 		String rev="";
 		//loop
 		for(int i=words.length-1;i>=0;i--)
