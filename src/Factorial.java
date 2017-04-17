@@ -11,6 +11,7 @@ public class Factorial {
 		}
 		return fact;
 	}
+	//find factorial using recursion
 	public static double RecGet(int n)
 	{
 		if (n==1)

@@ -1,5 +1,5 @@
 
-public class Node {
+public class Node1 {
 	private int value;
 	private Node next;
 		
