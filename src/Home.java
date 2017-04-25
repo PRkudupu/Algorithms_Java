@@ -1,3 +1,4 @@
+import java.security.AlgorithmConstraints;
 
 public class Home {
 	public static void main(String args[]){
@@ -31,6 +32,8 @@ public class Home {
 		
 	//Get the factorial of a number
 		
-
+   ///Check if the given no is prime 
+		boolean validate=Algorithms.checkPrimNo.validate(5);
+		System.out.println(validate);
  }
 }
