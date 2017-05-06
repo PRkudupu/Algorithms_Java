@@ -33,13 +33,18 @@ public class Home {
 		
 	//Get the factorial of a number
 		
-  /*Check if the given no is prime 
+     /*Check if the given no is prime 
 		boolean validate=Algorithms.checkPrimNo.validate(5);
 		System.out.println(validate);
 		
 		Algorithms.PrimeFactors.Fectf(75);
     */
-		//initialize a do dimensional array
+		
+		/***************
+		 * 
+		 * Reshape MATRIX
+		 */
+		/*//initialize a do dimensional array
 		int [][] nums={{1,2},{3,4}};
 		//Add data to the array
 		int [][] newnums;
@@ -48,7 +53,15 @@ public class Home {
 		for (int i=0;i<newnums[0].length;i++)
 		{
 				System.out.println(newnums[0][i]);
-		}
+		}*/
+		/***************
+		 * 
+		 * ARRAY PARTITION
+		 */
+		int [] arr={1,4,3,2};
+		
+		int num = Algorithms.ArrayPartition.get(arr);
+	     System.out.println(num);
 		
  }
 }

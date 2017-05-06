@@ -33,6 +33,23 @@ public class ReshapeArray {
 				int [][] reshapedArray= new int [r][c];
 				for (int i=0;i<r*c;i++)
 				{
+                    /*
+                     * 
+                     *  1st iteration
+						new[0][0]=nums[0][0];
+						
+						2nd iteration
+						new[1/4][1%4]=nums[1/2,1%2]
+						new[0][1]    =nums[0][0]
+						
+						3rd iteration
+						new[2/4][2%4]=nums[2/2,2%2]
+						new[0][2] = nums[1,0]
+						
+						4th iteration
+						[3/4][2%4]=nums[3/2,3%2]
+						new[0][3] =nums[1,1]
+                     */
 					reshapedArray[i/c][i%c]=nums[i/firstArrayLength][i%firstArrayLength];
 				}
 		      return reshapedArray;
