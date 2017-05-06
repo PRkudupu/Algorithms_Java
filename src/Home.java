@@ -1,4 +1,5 @@
 import java.security.AlgorithmConstraints;
+import java.util.ArrayList;
 
 public class Home {
 	public static void main(String args[]){
@@ -32,8 +33,22 @@ public class Home {
 		
 	//Get the factorial of a number
 		
-   ///Check if the given no is prime 
+  /*Check if the given no is prime 
 		boolean validate=Algorithms.checkPrimNo.validate(5);
 		System.out.println(validate);
+		
+		Algorithms.PrimeFactors.Fectf(75);
+    */
+		//initialize a do dimensional array
+		int [][] nums={{1,2},{3,4}};
+		//Add data to the array
+		int [][] newnums;
+		
+		newnums= Algorithms.ReshapeArray.get(nums,1,4);
+		for (int i=0;i<newnums[0].length;i++)
+		{
+				System.out.println(newnums[0][i]);
+		}
+		
  }
 }
