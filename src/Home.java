@@ -58,10 +58,33 @@ public class Home {
 		 * 
 		 * ARRAY PARTITION
 		 */
+		/*
 		int [] arr={1,4,3,2};
 		
 		int num = Algorithms.ArrayPartition.get(arr);
 	     System.out.println(num);
+	     */
+	 	/***************
+		* 
+	    * SUB Array sum equals K
+	    * Input: [3, 1, 4, 1, 5], k = 2
+         Output: 2
+         Explanation: There are two 2-diff pairs in the array, (1, 3) and (3, 5).
+         Although we have two 1s in the input, we should only return the number of unique pairs.
+		*/
+		/*
+	    int [] arr ={1,1,1,1};
+	    int num =Algorithms.SubArraySumEqualK.get(arr,2);
+	    */
+	 	/***************
+		* 
+		* K-diff Pairs in an Array
+	    */
+		int [] nums= {3, 1, 4, 1, 5};
+		int k = 2;
+		
+		int count=Algorithms.KdiffPairsInArray.get(nums,k);
+		System.out.println("count "+count);
 		
  }
 }
