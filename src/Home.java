@@ -80,11 +80,23 @@ public class Home {
 		* 
 		* K-diff Pairs in an Array
 	    */
+		/*
 		int [] nums= {3, 1, 4, 1, 5};
 		int k = 2;
 		
 		int count=Algorithms.KdiffPairsInArray.get(nums,k);
 		System.out.println("count "+count);
+		*/
+		/***************
+		* 
+		* Input: [1,1,0,1,1,1]
+          Output: 3
+          Explanation: The first two digits or the last three digits are consecutive 1s.
+          The maximum number of consecutive 1s is 3.
+	    */
+		int [] arr= {1, 1, 0, 1, 1,1};
 		
+		int max=Algorithms.MaxConsecutiveOnes.get(arr);
+		System.out.println("max consecutive ones "+ max);
  }
 }

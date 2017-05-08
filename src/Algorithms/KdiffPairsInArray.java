@@ -38,6 +38,11 @@ public class KdiffPairsInArray {
 			 else
 			 {
 				 //Check if the K pair exists in the hashMap
+				 /*
+				  * ex" when K=2 
+				  * keyValue + K 
+				  * 1+2 =3 . It exists
+				  */
 				 if(map.containsKey(entry.getKey()+k))
 					 count++;
 		
