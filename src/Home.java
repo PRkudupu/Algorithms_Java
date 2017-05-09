@@ -184,12 +184,26 @@ public class Home {
 		*  The digits are stored such that the most significant digit is at the head of the list
 			Input: [7, 1, 5, 3, 6, 4]
 		*/
-		int [] arr= {1, 1, 0, 10, 6, 7};
+		/*
+		int [] arr= {1, 1, 0, 10, 6, 10};
 		int [] result= {};
 		 result=Algorithms.Arrays.PlusOne.get(arr);
 		
 		 //loop through the array
 		 for(int no :result)
 		 System.out.println("Integer values "+ no);
+		 */
+		/***************
+		* 
+		*  Given an array of integers and an integer k, find out whether there are two distinct 
+		*  indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
+			Input: [7, 8, 4, 3, 6, 4] k=4
+		*/
+		int [] arr= {7, 8, 4, 3, 6, 4};
+		int k = 4;
+	
+		boolean value=Algorithms.Arrays.NearByDuplicate.get(arr,k);
+		System.out.println("Consecutive duplicates : "+ value);
+		
  }
 }
