@@ -1,5 +1,7 @@
 import java.security.AlgorithmConstraints;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class Home {
 	public static void main(String args[]){
@@ -94,9 +96,47 @@ public class Home {
           Explanation: The first two digits or the last three digits are consecutive 1s.
           The maximum number of consecutive 1s is 3.
 	    */
+		/*
 		int [] arr= {1, 1, 0, 1, 1,1};
 		
 		int max=Algorithms.MaxConsecutiveOnes.get(arr);
+		System.out.println("max consecutive ones "+ max);
+		
+		/**
+		 * Input:
+		[4,3,2,7,8,2,3,1]
+
+			Output:
+			[5,6]
+		 */
+		/***************
+		* 
+		* Input:
+			[4,3,2,7,8,2,3,1]
+			Output:
+			[5,6]
+	    */
+		/*
+		int [] arr= {4,3,2,7,8,2,3,1};
+		 List<Integer> ret=new ArrayList<Integer>();
+				
+		 ret=	Algorithms.AllNosDissappearedInArray.get(arr);
+		for(int i:ret)
+		{
+			System.out.println("Dissapeared InArray "+ i);
+			
+		}
+		*/
+		/***************
+		* 
+		* Best time to buy a stock
+			Input: [7, 1, 5, 3, 6, 4]
+			Output: 5
+			max. difference = 6-1 = 5 
+	    */
+		int [] arr= {7, 1, 5, 3, 6, 4};
+		
+		int max=Algorithms.BuySellStock.get(arr);
 		System.out.println("max consecutive ones "+ max);
  }
 }
