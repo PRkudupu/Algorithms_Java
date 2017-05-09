@@ -144,6 +144,7 @@ public class Home {
 		Because nums[0] + nums[1] = 2 + 7 = 9,
           return [0, 1].
 	    */
+		/*
 		int [] arr= {2, 7, 11, 15};
 		int target=9;
 		int[] result= new int [2];
@@ -153,6 +154,16 @@ public class Home {
 		{
 			System.out.println("Tow sum array indices "+ i);
 			
-		}
+		}*/
+		/***************
+		* 
+		*Given arr = [1, 7, 8, 10,20,7]
+		  Given an array of integers, find if the array contains any duplicates.
+	    */
+		int [] arr= {3, 2, 8, 10,20,2};
+		
+		boolean duplicate=Algorithms.ContainsDuplicate.getHashSet(arr);
+		System.out.println("Do we have duplicates in an array True ? False :: "+duplicate);
+		
  }
 }

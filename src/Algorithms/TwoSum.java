@@ -18,6 +18,10 @@ public class TwoSum {
 		
 		Map<Integer,Integer> map= new HashMap<Integer,Integer>();
 		for(int i=0;i<=arr.length;i++){
+			//This is where we are checking if the target -1 is eqaul to the key in the array
+			//In this scenario in the 1st iteration 2 is inserted as key
+			//In the second iteration when we check for contains key we would have the key so now we know that 
+			// [0] ,[1] is the sum of two 
 			if(map.containsKey(target-arr[i])){
 				result[1]=i+1;
 				result[0]=map.get(target-arr[i]);
