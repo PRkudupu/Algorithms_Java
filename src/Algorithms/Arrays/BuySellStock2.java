@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Arrays;
 
 public class BuySellStock2 {
 

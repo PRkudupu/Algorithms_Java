@@ -171,11 +171,25 @@ public class Home {
 		* 
 		*  Max profit
 			Input: [7, 1, 5, 3, 6, 4]
-			
-	    */
+		*/
+		/*
 		int [] arr= {7, 1, 5, 3, 6, 4};
 		
-		int max=Algorithms.BuySellStock2.get(arr);
+		int max=Algorithms.Arrays.BuySellStock2.get(arr);
 		System.out.println("max profit "+ max);
+		*/
+		/***************
+		* 
+		*  You may assume the integer do not contain any leading zero, except the number 0 itself
+		*  The digits are stored such that the most significant digit is at the head of the list
+			Input: [7, 1, 5, 3, 6, 4]
+		*/
+		int [] arr= {1, 1, 0, 10, 6, 7};
+		int [] result= {};
+		 result=Algorithms.Arrays.PlusOne.get(arr);
+		
+		 //loop through the array
+		 for(int no :result)
+		 System.out.println("Integer values "+ no);
  }
 }

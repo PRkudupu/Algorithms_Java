@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Arrays;
 /**
  * Input: [1,1,0,1,1,1]
    Output: 3

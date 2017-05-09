@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Arrays;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

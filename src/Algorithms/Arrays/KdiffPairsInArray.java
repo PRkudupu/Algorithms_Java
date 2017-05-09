@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 public class KdiffPairsInArray {
