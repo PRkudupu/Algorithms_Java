@@ -199,11 +199,23 @@ public class Home {
 		*  indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
 			Input: [7, 8, 4, 3, 6, 4] k=4
 		*/
+		/*
 		int [] arr= {7, 8, 4, 3, 6, 4};
 		int k = 4;
 	
 		boolean value=Algorithms.Arrays.NearByDuplicate.get(arr,k);
 		System.out.println("Consecutive duplicates : "+ value);
-		
+		*/
+		/***************
+		* 
+		*  Given input array nums = [1,1,2],
+            Your function should return length = 2, with the first two 
+            elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length
+		*/
+		int [] arr= {1,1,2};
+		int k = 3;
+	
+		int value=Algorithms.Arrays.removeDuplicatesSortedArray.get(arr,k);
+		System.out.println("Duplicates array : "+ value);
  }
 }
