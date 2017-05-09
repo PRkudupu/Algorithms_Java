@@ -6,8 +6,6 @@ import java.util.List;
 public class Home {
 	public static void main(String args[]){
 	
-	
-	
 	//Example for immutable
     //Call to static function for immutable example
 	//System.out.println(Immutable.Validate());
@@ -134,9 +132,27 @@ public class Home {
 			Output: 5
 			max. difference = 6-1 = 5 
 	    */
+		/*
 		int [] arr= {7, 1, 5, 3, 6, 4};
 		
 		int max=Algorithms.BuySellStock.get(arr);
 		System.out.println("max consecutive ones "+ max);
+		*/
+		/***************
+		* 
+		*Given nums = [2, 7, 11, 15], target = 9,
+		Because nums[0] + nums[1] = 2 + 7 = 9,
+          return [0, 1].
+	    */
+		int [] arr= {2, 7, 11, 15};
+		int target=9;
+		int[] result= new int [2];
+				
+		result=	Algorithms.TwoSum.get(arr,target);
+		for(int i:result)
+		{
+			System.out.println("Tow sum array indices "+ i);
+			
+		}
  }
 }
