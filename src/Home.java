@@ -160,10 +160,22 @@ public class Home {
 		*Given arr = [1, 7, 8, 10,20,7]
 		  Given an array of integers, find if the array contains any duplicates.
 	    */
+		/*
 		int [] arr= {3, 2, 8, 10,20,2};
 		
 		boolean duplicate=Algorithms.ContainsDuplicate.getHashSet(arr);
 		System.out.println("Do we have duplicates in an array True ? False :: "+duplicate);
+		*/
 		
+		/***************
+		* 
+		*  Max profit
+			Input: [7, 1, 5, 3, 6, 4]
+			
+	    */
+		int [] arr= {7, 1, 5, 3, 6, 4};
+		
+		int max=Algorithms.BuySellStock2.get(arr);
+		System.out.println("max profit "+ max);
  }
 }

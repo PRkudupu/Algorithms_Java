@@ -38,7 +38,7 @@ public class ContainsDuplicate {
             }
          return false;
 	}
-  //Using Hash Set
+  //Time complexity: O(N), memory: O(N)
 	public static Boolean getHashSet(int [] arr)
 	{
 		//If you make any variable, It will be constant.
