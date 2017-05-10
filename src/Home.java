@@ -212,10 +212,22 @@ public class Home {
             Your function should return length = 2, with the first two 
             elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length
 		*/
+		/*
 		int [] arr= {1,1,2};
 		int k = 3;
 	
 		int value=Algorithms.Arrays.removeDuplicatesSortedArray.get(arr,k);
+		System.out.println("Duplicates array : "+ value);
+		*/
+		/**
+		 * 
+		 * Remove element from an array
+		 */
+		int [] arr= {3,2,2,3};
+		int n = 4;
+		int ele=3;
+	
+		int value=Algorithms.Arrays.removeElement.get(arr,n,ele);
 		System.out.println("Duplicates array : "+ value);
  }
 }
