@@ -279,11 +279,19 @@ public class Home {
 		 * Search Insert Position
 		 * 
 		 */
+		/*
 		int [] arr= {1,3,4,5};
 		int insertValue = 6;
 		
 		int value=Algorithms.Arrays.searchInsertPosition.get(arr,insertValue);
 		System.out.println("Search Insert position : "+ value);
-		
+		*/
+		/***
+		 * Third Max number
+		 * 
+		 */
+		int [] arr= {1,2,3};
+	    int thirdMax=Algorithms.Arrays.ThirdMaxNumber.get(arr);
+	    System.out.println("thirdMax  : "+ thirdMax);
  }
 }
