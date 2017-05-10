@@ -184,15 +184,33 @@ public class Home {
 		*  The digits are stored such that the most significant digit is at the head of the list
 			Input: [7, 1, 5, 3, 6, 4]
 		*/
-		/*
-		int [] arr= {1, 1, 0, 10, 6, 10};
-		int [] result= {};
-		 result=Algorithms.Arrays.PlusOne.get(arr);
+		/* */
 		
+		int [] arr= {0, 1, 2, 33, 4, 5,9,9,9,9,11};
+		int [] result= {};
+		 //for(int no :arr)
+			// System.out.println("Integer values "+ no);
+		 String total=" ";
+			
+		for(int no :arr)
+		 {
+		 total=total+Integer.toString(no);
+			 
+		 //System.out.println("Integer values "+ no);
+		 }
+		 System.out.println(total);
+		 result=Algorithms.Arrays.PlusOne.get(arr);
+		 
 		 //loop through the array
+		  total=" ";
 		 for(int no :result)
-		 System.out.println("Integer values "+ no);
-		 */
+		 {
+		 total=total+Integer.toString(no);
+			 
+		 //System.out.println("Integer values "+ no);
+		 }
+		 System.out.println(total);
+		 
 		/***************
 		* 
 		*  Given an array of integers and an integer k, find out whether there are two distinct 
@@ -223,11 +241,27 @@ public class Home {
 		 * 
 		 * Remove element from an array
 		 */
+		/*
 		int [] arr= {3,2,2,3};
 		int n = 4;
 		int ele=3;
 	
 		int value=Algorithms.Arrays.removeElement.get(arr,n,ele);
-		System.out.println("Duplicates array : "+ value);
+		System.out.println("Element removed : "+ value);
+		*/
+		/**
+		 * 
+		 * For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
+		 */
+		/*
+		int [] arr= {0,1,0,3,12};
+	   
+		Algorithms.Arrays.moveZeros.get(arr);
+		//
+		for(int n:arr)
+		{
+		System.out.println("Move Zeros : "+ n);
+		}
+		*/
  }
 }

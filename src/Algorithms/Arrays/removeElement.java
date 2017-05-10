@@ -9,6 +9,7 @@ public class removeElement {
 		int begin=0;
 		for(int i=0;i<n;i++)
 		{
+			//Based on this condition we know it is not true
 			if(arr[i]!=elem){
 				arr[begin++]=arr[i];
 			}
