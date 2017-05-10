@@ -84,7 +84,7 @@ public class Home {
 		int [] nums= {3, 1, 4, 1, 5};
 		int k = 2;
 		
-		int count=Algorithms.KdiffPairsInArray.get(nums,k);
+		int count=Algorithms.Arrays.KdiffPairsInArray.get(nums,k);
 		System.out.println("count "+count);
 		*/
 		/***************
@@ -256,7 +256,7 @@ public class Home {
 		 * Move Zeros
 		 * For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
 		 */
-		
+		/*
 		int [] arr= {0,1,0,3,12};
 	    //Before
 		String display="";
@@ -274,7 +274,16 @@ public class Home {
 			display+=Integer.toString(n);
 		}
 		System.out.println("After moving Zeros : "+ display);
+		*/
+		/***
+		 * Search Insert Position
+		 * 
+		 */
+		int [] arr= {1,3,4,5};
+		int insertValue = 6;
 		
+		int value=Algorithms.Arrays.searchInsertPosition.get(arr,insertValue);
+		System.out.println("Search Insert position : "+ value);
 		
  }
 }

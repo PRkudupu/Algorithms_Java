@@ -15,18 +15,13 @@ public class moveZeros {
 	    	// Shift non-zero values as far forward as possible
 	        if (num != 0) {
 	         arr[insertPos++] = num;
-	         System.out.println("num :"+ num);
-	         System.out.println("pos :"+ insertPos);
-	         System.out.println("Values in array :"+arr[insertPos]);
-	        }
+	          }
 	    }        
         
 	    while (insertPos <arr.length) {
 	    	// Fill remaining space with zeros
 	    	arr[insertPos++] = 0;
-	    	 System.out.println("while loop position :"+insertPos);
-	    	 System.out.println("while loop position :"+insertPos);
-	    }
+	       }
 	}
 
 }
