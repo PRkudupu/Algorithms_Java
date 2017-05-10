@@ -179,13 +179,13 @@ public class Home {
 		System.out.println("max profit "+ max);
 		*/
 		/***************
-		* 
+		* Plus one
 		*  You may assume the integer do not contain any leading zero, except the number 0 itself
 		*  The digits are stored such that the most significant digit is at the head of the list
 			Input: [7, 1, 5, 3, 6, 4]
 		*/
-		/* */
 		
+		/*
 		int [] arr= {0, 1, 2, 33, 4, 5,9,9,9,9,11};
 		int [] result= {};
 		 //for(int no :arr)
@@ -210,23 +210,26 @@ public class Home {
 		 //System.out.println("Integer values "+ no);
 		 }
 		 System.out.println(total);
-		 
+		 */
 		/***************
-		* 
+		* NearByDuplicate Contains Duplicate II
 		*  Given an array of integers and an integer k, find out whether there are two distinct 
 		*  indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
 			Input: [7, 8, 4, 3, 6, 4] k=4
 		*/
 		/*
-		int [] arr= {7, 8, 4, 3, 6, 4};
-		int k = 4;
+		int [] arr= {1, 10, 2, 6, 9, 10};
+		int k = 2;
 	
-		boolean value=Algorithms.Arrays.NearByDuplicate.get(arr,k);
+		boolean value=Algorithms.Arrays.NearDuplicate.get(arr,k);
 		System.out.println("Consecutive duplicates : "+ value);
-		*/
+		//boolean value1=Algorithms.Arrays.containsNearbyDuplicate.get(arr,k);
+		//System.out.println("Consecutive duplicates : "+ value1);
+		
+		
 		/***************
-		* 
-		*  Given input array nums = [1,1,2],
+		* RemoveDuplicateSortedArray 
+		* *  Given input array nums = [1,1,2],
             Your function should return length = 2, with the first two 
             elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length
 		*/
@@ -235,7 +238,7 @@ public class Home {
 		int k = 3;
 	
 		int value=Algorithms.Arrays.removeDuplicatesSortedArray.get(arr,k);
-		System.out.println("Duplicates array : "+ value);
+		System.out.println("ID : "+ value);
 		*/
 		/**
 		 * 
@@ -250,18 +253,28 @@ public class Home {
 		System.out.println("Element removed : "+ value);
 		*/
 		/**
-		 * 
+		 * Move Zeros
 		 * For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
 		 */
-		/*
+		
 		int [] arr= {0,1,0,3,12};
-	   
-		Algorithms.Arrays.moveZeros.get(arr);
-		//
+	    //Before
+		String display="";
 		for(int n:arr)
 		{
-		System.out.println("Move Zeros : "+ n);
+			display+=Integer.toString(n);
 		}
-		*/
+		System.out.println("Before moving Zeros : "+ display);
+		Algorithms.Arrays.moveZeros.get(arr);
+		
+		//After
+		display="";
+		for(int n:arr)
+		{
+			display+=Integer.toString(n);
+		}
+		System.out.println("After moving Zeros : "+ display);
+		
+		
  }
 }

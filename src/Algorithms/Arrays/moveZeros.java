@@ -13,7 +13,8 @@ public class moveZeros {
 	    int insertPos = 0;
 	    for (int num: arr) {
 	    	// Shift non-zero values as far forward as possible
-	        if (num != 0) {arr[insertPos++] = num;
+	        if (num != 0) {
+	         arr[insertPos++] = num;
 	         System.out.println("num :"+ num);
 	         System.out.println("pos :"+ insertPos);
 	         System.out.println("Values in array :"+arr[insertPos]);

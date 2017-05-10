@@ -1,10 +1,11 @@
 package Algorithms.Arrays;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class NearByDuplicate {
-
 	/**
 	 * @param arr
 	 * @param k
@@ -27,4 +28,6 @@ public class NearByDuplicate {
 		}
 		return false;
 	}
+	
+	
 }
