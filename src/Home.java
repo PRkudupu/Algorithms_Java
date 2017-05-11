@@ -299,7 +299,7 @@ public class Home {
 		 * Pascal triangle 2
 		 * 
 		 */
-		
+		/*
 		int rowIndex = 3;
 		List<Integer> list=new ArrayList<Integer>();
 		
@@ -308,8 +308,18 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ n);
 		}
-	
-		
+	    */
+		/***
+		 * Pascal triangle 
+		 * 
+		 */
+		List<List<Integer>> allowRows = new ArrayList<List<Integer>>();
+		int rowIndex = 5;
+		allowRows=Algorithms.Arrays.PascalTriangle.get(rowIndex);
+		for(List n: allowRows)
+		{
+		System.out.println("Pascal Triangle : "+ n);
+		}
 		
  }
 }
