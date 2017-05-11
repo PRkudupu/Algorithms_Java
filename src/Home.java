@@ -335,6 +335,7 @@ public class Home {
 		System.out.println("Pascal Triangle : "+ i);
 		}
 		*/
+		/*
 		int [] arr= {1,2,3,4,5,6,7};
 		int  k=3;
 		arr=Algorithms.Arrays.RotateArray.getOptimum(arr, k);
@@ -342,6 +343,12 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ i);
 		}
+		*/
+		int [] arr= {3, 3, 4, 2, 4, 4, 2};
+	    int maj=Algorithms.Arrays.MajorityElement.get(arr);
+	    System.out.println("Majority Element  : "+ maj);
+	   
+		
 		
 		
 		
