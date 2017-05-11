@@ -38,8 +38,7 @@ public class RotateArray {
 	public static int [] getOptimum(int[] arr, int k)
 	{
 	    
-		//k%=arr.length; //x = x % y
-		k=k%(arr.length-4);
+		k%=arr.length; //k=k%arr.length
 	    //Reverse the array
 	    reverse(arr,0,arr.length-1);
 	    //Change the values in the array k-1 position
