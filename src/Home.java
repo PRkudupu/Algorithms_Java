@@ -290,8 +290,26 @@ public class Home {
 		 * Third Max number
 		 * 
 		 */
-		int [] arr= {1,2,3};
+		/*
+		int [] arr= {3,2,1};
 	    int thirdMax=Algorithms.Arrays.ThirdMaxNumber.get(arr);
 	    System.out.println("thirdMax  : "+ thirdMax);
+	    */
+		/***
+		 * Pascal triangle 2
+		 * 
+		 */
+		
+		int rowIndex = 3;
+		List<Integer> list=new ArrayList<Integer>();
+		
+		list=Algorithms.Arrays.PascalTriangle2.get(rowIndex);
+		for(Integer n:list)
+		{
+		System.out.println("Pascal Triangle : "+ n);
+		}
+	
+		
+		
  }
 }
