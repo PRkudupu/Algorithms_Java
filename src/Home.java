@@ -313,6 +313,7 @@ public class Home {
 		 * Pascal triangle 
 		 * 
 		 */
+		/*
 		List<List<Integer>> allowRows = new ArrayList<List<Integer>>();
 		int rowIndex = 5;
 		allowRows=Algorithms.Arrays.PascalTriangle.get(rowIndex);
@@ -320,6 +321,31 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ n);
 		}
+		*/
+		/***
+		 * Rotate an Array
+		 * 
+		 */
+		/*
+		int [] arr= {};
+		int n = 7, k=3;
+		arr=Algorithms.Arrays.RotateArray.get(n,k);
+		for(Integer i: arr)
+		{
+		System.out.println("Pascal Triangle : "+ i);
+		}
+		*/
+		int [] arr= {1,2,3,4,5,6,7};
+		int  k=3;
+		arr=Algorithms.Arrays.RotateArray.getOptimum(arr, k);
+		for(Integer i: arr)
+		{
+		System.out.println("Pascal Triangle : "+ i);
+		}
+		
+		
+		
+		
 		
  }
 }
