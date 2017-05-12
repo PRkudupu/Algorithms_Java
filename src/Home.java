@@ -359,12 +359,46 @@ public class Home {
 		 * Maximum Sub Array
 		 * 
 		 */
+		/*
 		int [] arr= {-2,-3,4,-1,-2,1,5,-3};
 	    int max=Algorithms.Arrays.MaximumSubArray.get(arr);
 	    System.out.println("Maximum SubArray  : "+ max);
-	 
+	    */
+		/***
+		 * MergeSorted Array
+		 * 
+		 */
 		
+		/*int [] arr1= new int [6];
+		for(int i=1;i<=3;i++)
+		{
+			arr1[i]=i;
+		}
+		int[] a = {1,2};
+		int[] b = {3};
 		
+		int [] arr3= {};
+		arr3=Algorithms.Arrays.MergeSortedArray.merge(a,2,b,1);
+		for(Integer i: arr3)
+		{
+		System.out.println("New elements in the array : "+ i);
+		}
+		*/
+		/***
+		 * Two Sum 2
+		 * 
+		 */
+		
+		int[] arr = {2, 7, 11, 15};
+		int target=9;
+		
+		int [] indices=new int[2];
+		indices=Algorithms.Arrays.TwoSumIIInputSorted.get(arr,target);
+		
+		for(Integer i: indices)
+		{
+		System.out.println("New Two sum : "+ i);
+		}
 		
 		
  }
