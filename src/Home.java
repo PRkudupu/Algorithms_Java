@@ -343,13 +343,26 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ i);
 		}
+		
 		*/
+		/***
+		 * Majority element
+		 * 
+		 */
+		/*
+		/*  
 		int [] arr= {3, 3, 4, 2, 4, 4, 2};
 	    int maj=Algorithms.Arrays.MajorityElement.get(arr);
 	    System.out.println("Majority Element  : "+ maj);
-	   
-		
-		
+	   */
+		/***
+		 * Maximum Sub Array
+		 * 
+		 */
+		int [] arr= {-2,-3,4,-1,-2,1,5,-3};
+	    int max=Algorithms.Arrays.MaximumSubArray.get(arr);
+	    System.out.println("Maximum SubArray  : "+ max);
+	 
 		
 		
 		

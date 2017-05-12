@@ -9,18 +9,33 @@ package Algorithms.Arrays;
 
 public class MajorityElement {
 	
-	public static int get(int[] num) {
+	public static int get(int [] arr)
+	{
+		//We are taking the first element of the array
+		int major=arr[0], count=1;
+			
+		for(int i=1;i<arr.length;i++)
+		{	
+			//If count is set to zero during iteration we need to reset the count
+			if (count==0)
+			{
+				count++;
+				major=arr[i];
+			}
+			//If current element is same as major then increment the count
+			else if(major==arr[i])
+			{
+				count++;
+			}
+			//If we are here than we know that the current element is not the same then we would decrement the count
+			else
+			{
+				count--;
+			}
+			
+		}
+		return major;
+		
+	}
 
-        int major=num[0], count = 1;
-        for(int i=1; i<num.length;i++){
-            if(count==0){
-                count++;
-                major=num[i];
-            }else if(major==num[i]){
-                count++;
-            }else count--;
-            
-        }
-        return major;
-    }
 }
