@@ -15,10 +15,10 @@ public class TwoSumIIInputSorted {
 		//Check if the array is empty or contains less than 2 elements
 		if (arr ==null || arr.length <2 ) return indices;
 	    
-		//define the start and the end part of the array
+		//define the start and the end point of the array
 		int start=0;int end=arr.length-1;
 		
-		//iterate till it reaches end of the loop
+		//iterate till condition is met
 		while(start <end)
 		{
 			//Sum the first and last element in the array
@@ -26,6 +26,7 @@ public class TwoSumIIInputSorted {
 			//check if the sum is equal to the target. If yes get the indice
 			if(sum==target) 
 			{
+				//Note we need indice, so we need to increement
 				indices[0]=start+1;
 				indices[1]=end+1;
 			}
@@ -39,11 +40,8 @@ public class TwoSumIIInputSorted {
 			{
 				start++;
 			}
-			
 		}
-		
 		return indices;
-		
 	}
 
 }

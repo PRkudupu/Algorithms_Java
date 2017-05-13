@@ -3,7 +3,7 @@ import java.security.AlgorithmConstraints;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Home {
+public class StringHome {
 	public static void main(String args[]){
 	
 	//Example for immutable
