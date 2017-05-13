@@ -15,11 +15,18 @@ public class HomeString {
 		 * Reverse a string 2
 		 * 
 		 */
+		/*
 		String s="abcdefg";
 	    int k=2;
 		
 		String reverserString=Algorithms.Strings.ReverseString2.get(s,k);
 		System.out.println("Missing Number : "+ reverserString);
-		
+		*/
+		String ransomNote="aa";
+		String magazine="aab";
+	  
+		boolean exists=Algorithms.Strings.RansomNote.get(ransomNote,magazine);
+		System.out.println("Missing Number : "+ exists);
+	
  }
 }
