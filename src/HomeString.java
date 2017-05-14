@@ -22,11 +22,27 @@ public class HomeString {
 		String reverserString=Algorithms.Strings.ReverseString2.get(s,k);
 		System.out.println("Missing Number : "+ reverserString);
 		*/
+		/**
+		 * Ransome Note
+		 * 
+		 */
+		/*
 		String ransomNote="aa";
 		String magazine="aab";
 	  
 		boolean exists=Algorithms.Strings.RansomNote.get(ransomNote,magazine);
 		System.out.println("Missing Number : "+ exists);
+		*/
+		/**
+		 * No of segments in a string
+		 * Input: "Hello, my name is John"
+              Output: 5		 
+		 */
+		String s="Hello, my name is John";
+	 
+		int no=Algorithms.Strings.NoSegmentsInString.get(s);
+		System.out.println("Segments in string : "+ no);
+	
 	
  }
 }
