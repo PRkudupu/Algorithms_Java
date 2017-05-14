@@ -38,11 +38,21 @@ public class HomeString {
 		 * Input: "Hello, my name is John"
               Output: 5		 
 		 */
+		/*
 		String s="Hello, my name is John";
 	 
 		int no=Algorithms.Strings.NoSegmentsInString.get(s);
 		System.out.println("Segments in string : "+ no);
-	
-	
+	     */
+		/**
+		 * Detect Capitol
+		 * Input: "Hello, my name is John"
+              Output: 5		 
+		 */
+		String s="USA";
+		 
+		boolean isCapitol=Algorithms.Strings.DetectCapitol.get(s);
+		System.out.println("Detect Capitol : "+ isCapitol);
+	   
  }
 }
