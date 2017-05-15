@@ -62,10 +62,24 @@ public class HomeString {
 		   M is a thousand, CM is nine hundred (100-1000)
 		   and IV is four 
 		 */
+		/*
 		String s="MCMIV";
 		 
 		int  romanToInteger=Algorithms.Strings.RomanToInteger.get(s);
 		System.out.println("Detect Capitol : "+ romanToInteger);
-	   
+	   */
+				/**
+		 * Longest Common Prefix
+		 * Input  : {"tommorow", "tommy", "tomandGerry", "tod"}
+           Output : "to"
+		 */
+		/*
+		 * 
+		 */
+		String [] str={"tommorow", "tommy", "tomandGerry", "tod"};
+		 
+		String  longestCommonPrefix=Algorithms.Strings.LongestCommonPrefix.get(str);
+		System.out.println("Detect Capitol : "+ longestCommonPrefix);
+	
  }
 }
