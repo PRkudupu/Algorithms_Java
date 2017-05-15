@@ -68,18 +68,27 @@ public class HomeString {
 		int  romanToInteger=Algorithms.Strings.RomanToInteger.get(s);
 		System.out.println("Detect Capitol : "+ romanToInteger);
 	   */
-				/**
+		/**
 		 * Longest Common Prefix
 		 * Input  : {"tommorow", "tommy", "tomandGerry", "tod"}
            Output : "to"
 		 */
 		/*
 		 * 
-		 */
 		String [] str={"tommorow", "tommy", "tomandGerry", "tod"};
 		 
 		String  longestCommonPrefix=Algorithms.Strings.LongestCommonPrefix.get(str);
 		System.out.println("Detect Capitol : "+ longestCommonPrefix);
-	
+		*/
+		/**
+		 * Reverse a string 3
+		 * Input: "do you like my blog"
+           Output: "golb ym ekil uoy od"
+		 */
+		String str="do you like my blog";
+		 
+		String  revStr=Algorithms.Strings.ReverseString3.cleanSolution(str);
+		System.out.println("Reverse a string : "+ revStr);
+		
  }
 }
