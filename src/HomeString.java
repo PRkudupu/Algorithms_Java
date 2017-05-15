@@ -49,10 +49,23 @@ public class HomeString {
 		 * Input: "Hello, my name is John"
               Output: 5		 
 		 */
+		/*
 		String s="USA";
 		 
 		boolean isCapitol=Algorithms.Strings.DetectCapitol.get(s);
 		System.out.println("Detect Capitol : "+ isCapitol);
+		*/
+		/**
+		 * Roman to Integer
+		 * Input : MCMIV
+		   Output :  1904                        C    M
+		   M is a thousand, CM is nine hundred (100-1000)
+		   and IV is four 
+		 */
+		String s="MCMIV";
+		 
+		int  romanToInteger=Algorithms.Strings.RomanToInteger.get(s);
+		System.out.println("Detect Capitol : "+ romanToInteger);
 	   
  }
 }
