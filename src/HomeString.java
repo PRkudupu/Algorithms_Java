@@ -99,16 +99,28 @@ public class HomeString {
 		String str="()[";
 		 
 		boolean  valid=Algorithms.Strings.ValidParentheses.get(str);
-		System.out.println("Reverse a string : "+ valid);
+		System.out.println("Valid Parentheses : "+ valid);
 		*/
 		/**
 		 * Implement strStr
 		 * Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack
 		 */
+		/*
 		String s="strSt";
 		String needle="St";
 		 
 		int  valid=Algorithms.Strings.NeedleInHaystack.get(s,needle);
-		System.out.println("Reverse a string : "+ valid);
+		System.out.println("Needle in Haystack : "+ valid);
+		*/
+		/**
+		 * Valid Palindrome
+		 * A man, a plan, a canal: Panama" is a palindrome.
+		 */
+		String s="A man, a plan, a canal: Panama";
+		 
+		boolean valid=Algorithms.Strings.ValidPalindrome.get(s);
+		System.out.println("Valid palindrome : "+ valid);
+		
+		
  }
 }
