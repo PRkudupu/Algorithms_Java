@@ -126,11 +126,21 @@ public class HomeString {
 		 * * Input: "aba", "cdc"
              Output: 3
 		 */
+		/*
 		String a="abc";
 		String b="abc";
 		 
 		int seq=Algorithms.Strings.LongestUnCommonSequence1.get(a,b);
 		System.out.println("Largest Uncommon Sequence : "+ seq);
-		
+		*/
+		/**Students attendance record 1
+		 * * Input: "PPALLP"
+             Output: 3
+		 */
+		String s="PPALPP";
+	
+		boolean attendance=Algorithms.Strings.StudentsAttendanceRecord1.get(s);
+		System.out.println("Student Attendance : "+ attendance);
+	
  }
 }
