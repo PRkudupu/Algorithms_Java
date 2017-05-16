@@ -95,11 +95,20 @@ public class HomeString {
 		 * Valid Parentheses
 		 close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not
 		 */
+		/*
 		String str="()[";
 		 
 		boolean  valid=Algorithms.Strings.ValidParentheses.get(str);
 		System.out.println("Reverse a string : "+ valid);
-		
-		
+		*/
+		/**
+		 * Implement strStr
+		 * Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack
+		 */
+		String s="strSt";
+		String needle="St";
+		 
+		int  valid=Algorithms.Strings.NeedleInHaystack.get(s,needle);
+		System.out.println("Reverse a string : "+ valid);
  }
 }
