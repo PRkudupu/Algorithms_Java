@@ -85,10 +85,21 @@ public class HomeString {
 		 * Input: "do you like my blog"
            Output: "golb ym ekil uoy od"
 		 */
+		/*
 		String str="do you like my blog";
 		 
 		String  revStr=Algorithms.Strings.ReverseString3.cleanSolution(str);
 		System.out.println("Reverse a string : "+ revStr);
+		*/
+		/**
+		 * Valid Parentheses
+		 close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not
+		 */
+		String str="()[";
+		 
+		boolean  valid=Algorithms.Strings.ValidParentheses.get(str);
+		System.out.println("Reverse a string : "+ valid);
+		
 		
  }
 }
