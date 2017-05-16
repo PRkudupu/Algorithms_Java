@@ -116,11 +116,21 @@ public class HomeString {
 		 * Valid Palindrome
 		 * A man, a plan, a canal: Panama" is a palindrome.
 		 */
-		String s="A man, a plan, a canal: Panama";
+		/*
+		String s="An, pna";
 		 
 		boolean valid=Algorithms.Strings.ValidPalindrome.get(s);
 		System.out.println("Valid palindrome : "+ valid);
-		
+		*/
+		/**Largest Uncommon Sequence 1
+		 * * Input: "aba", "cdc"
+             Output: 3
+		 */
+		String a="abc";
+		String b="abc";
+		 
+		int seq=Algorithms.Strings.LongestUnCommonSequence1.get(a,b);
+		System.out.println("Largest Uncommon Sequence : "+ seq);
 		
  }
 }
