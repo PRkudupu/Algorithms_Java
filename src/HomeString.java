@@ -173,13 +173,23 @@ public class HomeString {
 		 * * Input: "Blog"
              Output: "golB"
 		 */
+		/*
 		    String s="Blog";
 			
 			String reverse=Algorithms.Strings.ReverseString.usingPointers(s);
 			
 			System.out.println("Reverse of a string : "+ reverse);
+		*/
+		/**ANAGRAM
+		 * * Input: "Pra", "aPr"
+	         Output: true
+		 */
+		   String a="Pra";
+		   String b="aP";
 			
+			boolean isAnagram=Algorithms.Strings.Anagram.get(a,b);
 			
+			System.out.println("The given 2 strings are Anagram (True:false ) -->"+ isAnagram);
 	
  }
 }
