@@ -175,7 +175,7 @@ public class HomeString {
 		 */
 		    String s="Blog";
 			
-			String reverse=Algorithms.Strings.ReverseString.get(s);
+			String reverse=Algorithms.Strings.ReverseString.usingPointers(s);
 			
 			System.out.println("Reverse of a string : "+ reverse);
 			
