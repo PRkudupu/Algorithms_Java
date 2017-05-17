@@ -162,9 +162,9 @@ public class HomeString {
              Output: 5
 		 */
 		
-        String s="prathap Kudup";
+        String s="prathap Kudupu";
 		
-		int lengthOfLastWord=Algorithms.Strings.LengthOfLastWord.get(s);
+		int lengthOfLastWord=Algorithms.Strings.LengthOfLastWord.optimum(s);
 		
 		System.out.println("Lengt of the last word : "+ lengthOfLastWord);
 		

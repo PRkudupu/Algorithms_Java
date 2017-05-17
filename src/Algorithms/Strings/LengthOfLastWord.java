@@ -26,4 +26,10 @@ public class LengthOfLastWord {
 		}
 		return length;
 	}
+	
+	//Online code
+	public static int optimum(String s)
+	{
+		return s.trim().length()-s.trim().indexOf(' ')-1;
+	}
 }
