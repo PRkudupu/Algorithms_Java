@@ -137,10 +137,25 @@ public class HomeString {
 		 * * Input: "PPALLP"
              Output: 3
 		 */
+		/*
 		String s="PPALPP";
 	
 		boolean attendance=Algorithms.Strings.StudentsAttendanceRecord1.get(s);
 		System.out.println("Student Attendance : "+ attendance);
+		*/
+		/**Reverse vowels of a string
+		 * * Input: "hello"
+             Output: "holle"
+		 */
+		String s="hello";
+		
+		String reverseVowels=Algorithms.Strings.ReverseVowelsOfString.get(s);
+		//display the new reversed vowels
+		for(char c:reverseVowels.toCharArray())
+		{
+		System.out.println("Reversed vowels : "+ c);
+		}
+	
 	
  }
 }
