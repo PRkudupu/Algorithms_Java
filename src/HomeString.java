@@ -133,7 +133,7 @@ public class HomeString {
 		int seq=Algorithms.Strings.LongestUnCommonSequence1.get(a,b);
 		System.out.println("Largest Uncommon Sequence : "+ seq);
 		*/
-		/**Students attendance record 1
+		/**STUDENTS ATTENDANCE RECORD 1
 		 * * Input: "PPALLP"
              Output: 3
 		 */
@@ -143,7 +143,7 @@ public class HomeString {
 		boolean attendance=Algorithms.Strings.StudentsAttendanceRecord1.get(s);
 		System.out.println("Student Attendance : "+ attendance);
 		*/
-		/**Reverse vowels of a string
+		/**REVERSE VOWEL OF A STRING
 		 * * Input: "hello"
              Output: "holle"
 		 */
@@ -157,18 +157,29 @@ public class HomeString {
 		System.out.println("Reversed vowels : "+ c);
 		}
 		*/
-		/**Length of the last word
+		/**LENGTH OF THE LAST WORD
 		 * * Input: "Prathap Kudupu"
              Output: 5
 		 */
-		
+		/*
         String s="prathap Kudupu";
 		
 		int lengthOfLastWord=Algorithms.Strings.LengthOfLastWord.optimum(s);
 		
-		System.out.println("Lengt of the last word : "+ lengthOfLastWord);
+		System.out.println("Length of the last word : "+ lengthOfLastWord);
+		*/
 		
-	
+		/**REVERSE A STRING
+		 * * Input: "Blog"
+             Output: "golB"
+		 */
+		    String s="Blog";
+			
+			String reverse=Algorithms.Strings.ReverseString.get(s);
+			
+			System.out.println("Reverse of a string : "+ reverse);
+			
+			
 	
  }
 }
