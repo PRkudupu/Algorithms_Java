@@ -184,12 +184,24 @@ public class HomeString {
 		 * * Input: "Pra", "aPr"
 	         Output: true
 		 */
+		/*
 		   String a="Pra";
 		   String b="aP";
 			
 			boolean isAnagram=Algorithms.Strings.Anagram.get(a,b);
 			
 			System.out.println("The given 2 strings are Anagram (True:false ) -->"+ isAnagram);
-	
+		*/
+		/***
+		 * Reverse a string using Recursion
+		 * * * Input: "Blog"
+              Output: "golB"
+		 */
+			 String s="help";
+				
+				String reverse=Algorithms.Strings.ReverseStringRecursion.get(s);
+				
+				System.out.println("Reverse of a string : "+ reverse);
+		
  }
 }
