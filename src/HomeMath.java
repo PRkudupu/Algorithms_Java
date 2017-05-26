@@ -13,8 +13,13 @@ public class HomeMath {
 			 int digit=38;
 				
 				int Add2Digits=Algorithms.Math.AddTwoDigits.get(digit);
+			
+				System.out.println("Result of adding 2 numbers : "+ Add2Digits);
 				
-				System.out.println("Reverse of a string : "+ Add2Digits);
+				int Add2DigitsRev=Algorithms.Math.AddTwoDigits.recursion(digit);
+				
+				System.out.println("Result of adding 2 numbers rev: "+ Add2DigitsRev);
+		
 		
  }
 }
