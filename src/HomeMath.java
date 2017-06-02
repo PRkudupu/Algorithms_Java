@@ -31,11 +31,16 @@ public class HomeMath {
 						Divisors of 6 are 1, 2 and 3. Sum of 
 						divisors is 6.
 				 */
-				
+				/*
 				boolean isPerfect =Algorithms.Math.PerfectNumber.get(8);
 				System.out.println(isPerfect);
-				
-		
-				        
+				*/
+		       /**
+		        * Input 12321 is a palindrome number
+		        * Input 1231 is not a palindrome number
+		        */
+				boolean isPalindrome =Algorithms.Math.PalindromeNumber.get(12321);
+				System.out.println(isPalindrome);
+				      
  }
 }
