@@ -401,12 +401,27 @@ public class Home {
 		}
 		*/
 		/**
-		 * Missing Number
+		 * Best time to buy a stock
 		 */
-		int[] arr = {0, 1, 3};
+		/*int[] arr = {0, 1, 3};
 		
 		int missing=Algorithms.Arrays.MissingNumber.get(arr);
 		System.out.println("Missing Number : "+ missing);
+		*/
+		/**
+		 * Missing Number
+		 * 	Say you have an array for which the ith element is the price of a given stock on day i.
+		 * Input: [7, 1, 5, 3, 6, 4]
+			Output: 5
+
+			max. difference = 6-1 = 5 (not 7-1 = 6, as selling price needs to be larger 
+			than buying price)
+		 */
+		int arr [] ={7, 1, 5, 3, 6, 4};
+		int bestTimeToBuyStock=Algorithms.Arrays.BestTimeToBuyStock.get(arr);
+		System.out.println("Best Time to buy stock : "+ bestTimeToBuyStock);
+		
+		
 		
  }
 }

@@ -21,7 +21,7 @@ public class HomeMath {
 				System.out.println("Result of adding 2 numbers rev: "+ Add2DigitsRev);
 				*/
 				/***
-				 Input: n = 15
+				       Input: n = 15
 						Output: false
 						Divisors of 15 are 1, 3 and 5. Sum of 
 						divisors is 9 which is not equal to 15.
