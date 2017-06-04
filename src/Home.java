@@ -173,12 +173,12 @@ public class Home {
 		*  Max profit
 			Input: [7, 1, 5, 3, 6, 4]
 		*/
-		/*	*/
+		/*	
 		int [] arr= {7, 1, 5, 3, 6, 4};
 		
 		int max=Algorithms.Arrays.BestTimeToBuySellStock2.get(arr);
 		System.out.println("max profit "+ max);
-	
+	   */
 		/***************
 		* Plus one
 		*  You may assume the integer do not contain any leading zero, except the number 0 itself
@@ -186,8 +186,8 @@ public class Home {
 			Input: [7, 1, 5, 3, 6, 4]
 		*/
 		
-		/*
-		int [] arr= {0, 1, 2, 33, 4, 5,9,9,9,9,11};
+		/* */
+		int [] arr= {9,9};
 		int [] result= {};
 		 //for(int no :arr)
 			// System.out.println("Integer values "+ no);
@@ -196,7 +196,6 @@ public class Home {
 		for(int no :arr)
 		 {
 		 total=total+Integer.toString(no);
-			 
 		 //System.out.println("Integer values "+ no);
 		 }
 		 System.out.println(total);
@@ -211,7 +210,7 @@ public class Home {
 		 //System.out.println("Integer values "+ no);
 		 }
 		 System.out.println(total);
-		 */
+		 
 		/***************
 		* NearByDuplicate Contains Duplicate II
 		*  Given an array of integers and an integer k, find out whether there are two distinct 

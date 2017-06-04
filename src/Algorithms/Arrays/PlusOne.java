@@ -16,7 +16,8 @@ public static int [] get(int [] digits)
 		//If the no is greater than 1 then assign 0
 		digits[i]=0;
 	}
-	//Create new array
+	//This last part of code is only for the case that the whole input array is 9s.
+	//For example : 99999-----> 100000
 	int [] newNumber = new int [digits.length+1];
 	newNumber[0]=1;
 	return newNumber;
