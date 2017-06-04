@@ -1,6 +1,6 @@
 package Algorithms.Arrays;
 
-public class BuySellStock2 {
+public class BestTimeToBuySellStock2 {
 
 	public static int get(int [] prices)
 	{
