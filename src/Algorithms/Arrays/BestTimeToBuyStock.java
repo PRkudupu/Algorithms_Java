@@ -3,7 +3,13 @@
  * of the original array, and find a contiguous subarray giving maximum profit. If the difference falls below 0, reset it to zero.
  */
 package Algorithms.Arrays;
+/*
+ * Input: [7, 1, 5, 3, 6, 4]
+Output: 5
 
+max. difference = 6-1 = 5 (not 7-1 = 6, as selling price needs to be larger 
+than buying price)
+ */
 public class BestTimeToBuyStock {
 	
 	public static int get(int [] prices){

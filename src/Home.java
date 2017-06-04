@@ -144,17 +144,17 @@ public class Home {
 		Because nums[0] + nums[1] = 2 + 7 = 9,
           return [0, 1].
 	    */
-		/*
-		int [] arr= {2, 7, 11, 15};
+		/* */
+		int [] arr= {3, 2, 7, 15};
 		int target=9;
 		int[] result= new int [2];
 				
-		result=	Algorithms.TwoSum.get(arr,target);
+		result=	Algorithms.Arrays.TwoSum.get(arr,target);
 		for(int i:result)
 		{
 			System.out.println("Tow sum array indices "+ i);
 			
-		}*/
+		}
 		/***************
 		* 
 		*Given arr = [1, 7, 8, 10,20,7]
@@ -417,10 +417,10 @@ public class Home {
 			max. difference = 6-1 = 5 (not 7-1 = 6, as selling price needs to be larger 
 			than buying price)
 		 */
-		int arr [] ={7, 1, 5, 3, 6, 4};
+		/*int arr [] ={7, 1, 5, 3, 6, 4};
 		int bestTimeToBuyStock=Algorithms.Arrays.BestTimeToBuyStock.get(arr);
 		System.out.println("Best Time to buy stock : "+ bestTimeToBuyStock);
-		
+		*/
 		
 		
  }

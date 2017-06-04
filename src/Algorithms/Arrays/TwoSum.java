@@ -22,12 +22,12 @@ public class TwoSum {
 			//In this scenario in the 1st iteration 2 is inserted as key
 			//In the second iteration when we check for contains key we would have the key so now we know that 
 			// [0] ,[1] is the sum of two 
-			if(map.containsKey(target-arr[i])){
-				result[1]=i+1;
-				result[0]=map.get(target-arr[i]);
+			if(map.containsKey(arr[i])){
+				result[0]=map.get(arr[i]);
+				result[1]=i;
 				return result;
 			}
-			map.put(arr[i],arr[i+1]);
+			map.put(target-arr[i],i);
 		}
 		return result;
 				
