@@ -186,8 +186,8 @@ public class Home {
 			Input: [7, 1, 5, 3, 6, 4]
 		*/
 		
-		/* */
-		int [] arr= {9,9};
+		/* 
+		int [] arr= {1,4,9,9};
 		int [] result= {};
 		 //for(int no :arr)
 			// System.out.println("Integer values "+ no);
@@ -210,7 +210,7 @@ public class Home {
 		 //System.out.println("Integer values "+ no);
 		 }
 		 System.out.println(total);
-		 
+		 */
 		/***************
 		* NearByDuplicate Contains Duplicate II
 		*  Given an array of integers and an integer k, find out whether there are two distinct 
@@ -421,6 +421,20 @@ public class Home {
 		int bestTimeToBuyStock=Algorithms.Arrays.BestTimeToBuyStock.get(arr);
 		System.out.println("Best Time to buy stock : "+ bestTimeToBuyStock);
 		*/
+		/**
+		 * Given an array of integers and an integer k, find out whether there are 
+		 * two distinct indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
+		 * Input: k = 3, arr[] = {1, 2, 3, 4, 1, 2, 3, 4}
+			Output: false
+			All duplicates are more than k distance away.
+
+			Input: k = 3, arr[] = {1, 2, 3, 1, 4, 5}
+			Output: true
+			1 is repeated at distance 3.
+		 */
+		int  k = 3, arr[] = {3, 2, 1, 1};
+		boolean ContainsDup2=Algorithms.Arrays.ContainsDuplicate2.get(arr,k);
+		System.out.println("Contains Dup : "+ ContainsDup2);
 		
 		
  }
