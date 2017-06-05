@@ -13,6 +13,7 @@ public class removeDuplicatesSortedArray {
             {
             	System.out.println("arr[i]  :" +arr[i]);
             	System.out.println("arr[i-1]  :" +arr[i-1]);
+            	System.out.println("id  :" +id +    "id++"+ id++);
             	arr[id++] = arr[i];
             	System.out.println("arr[i-1]  :" +arr[id++]);
             	

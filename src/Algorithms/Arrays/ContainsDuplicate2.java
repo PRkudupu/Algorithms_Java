@@ -15,7 +15,8 @@ public class ContainsDuplicate2 {
 			{
 				set.remove(num[i-k-1]);
 			}
-			//Here we are adding i values to the arrray
+			//Here we are adding i values to the hashSet.
+			//If there is a duplicate then add would fail
 			if(!set.add(num[i]))
 				return true;
 		}

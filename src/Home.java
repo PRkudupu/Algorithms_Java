@@ -233,7 +233,7 @@ public class Home {
             Your function should return length = 2, with the first two 
             elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length
 		*/
-		/*
+		/* 
 		int [] arr= {1,1,2};
 		int k = 3;
 	
@@ -256,7 +256,7 @@ public class Home {
 		 * Move Zeros
 		 * For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
 		 */
-		/*
+		/* */
 		int [] arr= {0,1,0,3,12};
 	    //Before
 		String display="";
@@ -265,7 +265,7 @@ public class Home {
 			display+=Integer.toString(n);
 		}
 		System.out.println("Before moving Zeros : "+ display);
-		Algorithms.Arrays.moveZeros.get(arr);
+		Algorithms.Arrays.MoveZeros.get(arr);
 		
 		//After
 		display="";
@@ -274,7 +274,7 @@ public class Home {
 			display+=Integer.toString(n);
 		}
 		System.out.println("After moving Zeros : "+ display);
-		*/
+		
 		/***
 		 * Search Insert Position
 		 * 
@@ -432,10 +432,11 @@ public class Home {
 			Output: true
 			1 is repeated at distance 3.
 		 */
-		int  k = 3, arr[] = {3, 2, 1, 1};
+		/*
+		int  k = 3, arr[] = {1, 2,3, 4,5,6,7,4};
 		boolean ContainsDup2=Algorithms.Arrays.ContainsDuplicate2.get(arr,k);
 		System.out.println("Contains Dup : "+ ContainsDup2);
 		
-		
+		*/
  }
 }

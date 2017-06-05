@@ -11,7 +11,8 @@ public class removeElement {
 		{
 			//Based on this condition we know it is not true
 			if(arr[i]!=elem){
-				arr[begin++]=arr[i];
+				arr[begin]=arr[i];
+				begin++;
 			}
 		}
 		return begin;
