@@ -80,7 +80,7 @@ public class Home {
 		* 
 		* K-diff Pairs in an Array
 	    */
-		/*
+		/* 
 		int [] nums= {3, 1, 4, 1, 5};
 		int k = 2;
 		
@@ -89,7 +89,7 @@ public class Home {
 		*/
 		/***************
 		* 
-		* Input: [1,1,0,1,1,1]
+		* Input: [1,1,0,1,1,1]	
           Output: 3
           Explanation: The first two digits or the last three digits are consecutive 1s.
           The maximum number of consecutive 1s is 3.
@@ -114,17 +114,17 @@ public class Home {
 			Output:
 			[5,6]
 	    */
-		/*
+		/*	*/
 		int [] arr= {4,3,2,7,8,2,3,1};
 		 List<Integer> ret=new ArrayList<Integer>();
 				
-		 ret=	Algorithms.AllNosDissappearedInArray.get(arr);
+		 ret=	Algorithms.Arrays.AllNosDissappearedInArray.get(arr);
 		for(int i:ret)
 		{
 			System.out.println("Dissapeared InArray "+ i);
 			
 		}
-		*/
+	
 		/***************
 		* 
 		* Best time to buy a stock
@@ -256,7 +256,7 @@ public class Home {
 		 * Move Zeros
 		 * For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
 		 */
-		/* */
+		/* 
 		int [] arr= {0,1,0,3,12};
 	    //Before
 		String display="";
@@ -274,7 +274,7 @@ public class Home {
 			display+=Integer.toString(n);
 		}
 		System.out.println("After moving Zeros : "+ display);
-		
+		*/
 		/***
 		 * Search Insert Position
 		 * 

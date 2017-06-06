@@ -13,6 +13,7 @@ public class MoveZeros
 			arr[insertpos++]=n;
 			
 		}
+		//This is where we replace end of the array with zero based on the insertPos count
 		while(insertpos < arr.length)
 		{
 			arr[insertpos++]=0;
