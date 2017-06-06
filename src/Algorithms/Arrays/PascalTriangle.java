@@ -14,6 +14,7 @@ public class PascalTriangle {
 		for(int i=0;i<numRows;i++)
 		{
 			row.add(0, 1);
+			//J loop iteration would not start till Row Size is greater than one
 			for(int j=1;j<row.size()-1;j++)
 			 // set j value from the nest element
 				row.set(j, row.get(j)+row.get(j+1));

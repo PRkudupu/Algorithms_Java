@@ -114,7 +114,7 @@ public class Home {
 			Output:
 			[5,6]
 	    */
-		/*	*/
+		/*	
 		int [] arr= {4,3,2,7,8,2,3,1};
 		 List<Integer> ret=new ArrayList<Integer>();
 				
@@ -124,7 +124,7 @@ public class Home {
 			System.out.println("Dissapeared InArray "+ i);
 			
 		}
-	
+	  */
 		/***************
 		* 
 		* Best time to buy a stock
@@ -290,11 +290,11 @@ public class Home {
 		 * Third Max number
 		 * 
 		 */
-		/*
-		int [] arr= {3,2,1};
+		/*  
+		int [] arr= {2,1,3};
 	    int thirdMax=Algorithms.Arrays.ThirdMaxNumber.get(arr);
 	    System.out.println("thirdMax  : "+ thirdMax);
-	    */
+	   */
 		/***
 		 * Pascal triangle 2
 		 * 
@@ -313,7 +313,7 @@ public class Home {
 		 * Pascal triangle 
 		 * 
 		 */
-		/*
+		/*	*/
 		List<List<Integer>> allowRows = new ArrayList<List<Integer>>();
 		int rowIndex = 5;
 		allowRows=Algorithms.Arrays.PascalTriangle.get(rowIndex);
@@ -321,7 +321,7 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ n);
 		}
-		*/
+	
 		/***
 		 * Rotate an Array
 		 * 
