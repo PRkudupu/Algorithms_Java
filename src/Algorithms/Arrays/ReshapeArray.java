@@ -35,10 +35,12 @@ public class ReshapeArray {
 				{
                     /*
                      * 
+                     * 
                      *  1st iteration
-						new[0][0]=nums[0][0];
+						new[0/4][0%4]=nums[0/2][0%2];
+						new[0][0]=nums[0][0]
 						
-						2nd iteration
+						2rd iteration
 						new[1/4][1%4]=nums[1/2,1%2]
 						new[0][1]    =nums[0][0]
 						

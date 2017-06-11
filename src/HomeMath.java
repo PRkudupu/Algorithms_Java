@@ -39,8 +39,18 @@ public class HomeMath {
 		        * Input 12321 is a palindrome number
 		        * Input 1231 is not a palindrome number
 		        */
+				/*
 				boolean isPalindrome =Algorithms.Math.PalindromeNumber.get(12321);
 				System.out.println(isPalindrome);
-				      
+				*/
+			    /** MINIMUM MOVES TO EQUAL ARRAY ELEMENTS
+			        Input:[1,2,3]
+				    Output:3
+				    
+				    [1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
+				 */
+				int arr [] ={1,2,3};
+				int minMoves =Algorithms.Math.MinMovesToArrayElement.get(arr);
+				System.out.println("Minimum Moves :" + minMoves);
  }
 }

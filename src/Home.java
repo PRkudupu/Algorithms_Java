@@ -44,24 +44,25 @@ public class Home {
 		 * 
 		 * Reshape MATRIX
 		 */
-		/*//initialize a do dimensional array
+		/*//initialize a do dimensional array 
 		int [][] nums={{1,2},{3,4}};
 		//Add data to the array
-		int [][] newnums;
+		int [][] newnums; 
 		
-		newnums= Algorithms.ReshapeArray.get(nums,1,4);
+		newnums= Algorithms.Arrays.ReshapeArray.get(nums,1,4);
 		for (int i=0;i<newnums[0].length;i++)
 		{
 				System.out.println(newnums[0][i]);
-		}*/
+		}
+		*/
 		/***************
 		 * 
 		 * ARRAY PARTITION
 		 */
-		/*
+		/* 
 		int [] arr={1,4,3,2};
 		
-		int num = Algorithms.ArrayPartition.get(arr);
+		int num = Algorithms.Arrays.ArrayPartition.get(arr);
 	     System.out.println(num);
 	     */
 	 	/***************
@@ -256,7 +257,7 @@ public class Home {
 		 * Move Zeros
 		 * For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
 		 */
-		/* 
+		/* */
 		int [] arr= {0,1,0,3,12};
 	    //Before
 		String display="";
@@ -274,7 +275,7 @@ public class Home {
 			display+=Integer.toString(n);
 		}
 		System.out.println("After moving Zeros : "+ display);
-		*/
+		
 		/***
 		 * Search Insert Position
 		 * 
@@ -299,7 +300,7 @@ public class Home {
 		 * Pascal triangle 2
 		 * 
 		 */
-		/*
+		/*  
 		int rowIndex = 3;
 		List<Integer> list=new ArrayList<Integer>();
 		
@@ -308,12 +309,12 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ n);
 		}
-	    */
+	   */
 		/***
 		 * Pascal triangle 
 		 * 
 		 */
-		/*	*/
+		/*	
 		List<List<Integer>> allowRows = new ArrayList<List<Integer>>();
 		int rowIndex = 5;
 		allowRows=Algorithms.Arrays.PascalTriangle.get(rowIndex);
@@ -321,7 +322,7 @@ public class Home {
 		{
 		System.out.println("Pascal Triangle : "+ n);
 		}
-	
+	     */
 		/***
 		 * Rotate an Array
 		 * 
@@ -335,16 +336,16 @@ public class Home {
 		System.out.println("Pascal Triangle : "+ i);
 		}
 		*/
-		/*
-		int [] arr= {1,2,3,4,5,6,7};
+		/* 
+		int [] arr= {1,2,3,4,5};
 		int  k=3;
 		arr=Algorithms.Arrays.RotateArray.getOptimum(arr, k);
 		for(Integer i: arr)
 		{
-		System.out.println("Pascal Triangle : "+ i);
+		System.out.println("Rotate Array : "+ i);
 		}
-		
 		*/
+		
 		/***
 		 * Majority element
 		 * 
@@ -354,12 +355,12 @@ public class Home {
 		int [] arr= {3, 3, 4, 2, 4, 4, 2};
 	    int maj=Algorithms.Arrays.MajorityElement.get(arr);
 	    System.out.println("Majority Element  : "+ maj);
-	   */
+	    */
 		/***
 		 * Maximum Sub Array
 		 * 
 		 */
-		/*
+		/*    
 		int [] arr= {-2,-3,4,-1,-2,1,5,-3};
 	    int max=Algorithms.Arrays.MaximumSubArray.get(arr);
 	    System.out.println("Maximum SubArray  : "+ max);
@@ -403,7 +404,10 @@ public class Home {
 		/**
 		 * Best time to buy a stock
 		 */
-		/*int[] arr = {0, 1, 3};
+		/* 
+		 *  
+		 *  
+		int[] arr = {0, 1, 3};
 		
 		int missing=Algorithms.Arrays.MissingNumber.get(arr);
 		System.out.println("Missing Number : "+ missing);
