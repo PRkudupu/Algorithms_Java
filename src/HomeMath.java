@@ -59,9 +59,19 @@ public class HomeMath {
         		n = 5
         		Because the third row is incomplete return 2
         		**/
-			  int n=5;	
+		    /*
+			    int n=5;	
 			   int arrangeCoins =Algorithms.Math.ArrangingCoins.Other(n);
 				System.out.println("Arranging Coins :" + arrangeCoins);
+				*/
+		  	/** ADD Strings
+				n = 5
+				Because the third row is incomplete return 2
+		  	 **/
+		   String num1="9", num2="2";	
+		   String sum =Algorithms.Math.AddStrings.Get(num1, num2);
+			System.out.println("Sum of num1 and num2  :" + sum);
+		
 		
  }
 }
