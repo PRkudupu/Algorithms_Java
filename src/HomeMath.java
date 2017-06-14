@@ -68,10 +68,18 @@ public class HomeMath {
 				n = 5
 				Because the third row is incomplete return 2
 		  	 **/
-		   String num1="9", num2="2";	
-		   String sum =Algorithms.Math.AddStrings.Get(num1, num2);
-			System.out.println("Sum of num1 and num2  :" + sum);
-		
+		      /*
+		       String num1="9", num2="2";	
+		       String sum =Algorithms.Math.AddStrings.Get(num1, num2);
+			  System.out.println("Sum of num1 and num2  :" + sum);
+			  */
+			/** Find nth digit 
+				input = 11
+				output =0
+			 **/
+		   int n=11;
+	       int nthDigit =Algorithms.Math.NthDigit.Get(n);
+		   System.out.println("Nth digit of a string :" + nthDigit);
 		
  }
 }
