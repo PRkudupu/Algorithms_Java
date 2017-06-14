@@ -43,14 +43,25 @@ public class HomeMath {
 				boolean isPalindrome =Algorithms.Math.PalindromeNumber.get(12321);
 				System.out.println(isPalindrome);
 				*/
+		       /*
 			    /** MINIMUM MOVES TO EQUAL ARRAY ELEMENTS
 			        Input:[1,2,3]
 				    Output:3
 				    
 				    [1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
-				 */
+				
 				int arr [] ={1,2,3};
 				int minMoves =Algorithms.Math.MinMovesToArrayElement.get(arr);
 				System.out.println("Minimum Moves :" + minMoves);
+				
+				*/
+		        /** Arranging Coins
+        		n = 5
+        		Because the third row is incomplete return 2
+        		**/
+			  int n=5;	
+			   int arrangeCoins =Algorithms.Math.ArrangingCoins.Other(n);
+				System.out.println("Arranging Coins :" + arrangeCoins);
+		
  }
 }
