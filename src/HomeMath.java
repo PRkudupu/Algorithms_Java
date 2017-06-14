@@ -77,9 +77,32 @@ public class HomeMath {
 				input = 11
 				output =0
 			 **/
-		   int n=11;
-	       int nthDigit =Algorithms.Math.NthDigit.Get(n);
-		   System.out.println("Nth digit of a string :" + nthDigit);
+			/*
+			   int n=11;
+		       int nthDigit =Algorithms.Math.NthDigit.Get(n);
+			   System.out.println("Nth digit of a string :" + nthDigit);
+			   */
+			/** Perfect Square
+				input = 4    input = 16
+				output =true  output =false
+			 **/   
+		         /*
+				   int n=4;
+			       boolean isPerfectSquare;
+			       isPerfectSquare=Algorithms.Math.PerfectSquare.Get(n);
+				   System.out.println("Is it a perfect Square :" + isPerfectSquare);
+				   */
+		         /*
+				   int n=12;
+			       boolean isPerfectSquare;
+				   isPerfectSquare =Algorithms.Math.PerfectSquare.BinarySearchMethod(n);
+				   System.out.println("Is it a perfect Square :" + isPerfectSquare);
+				   **/
+		  			int n=16;
+		  			boolean isPerfectSquare;
+		  			isPerfectSquare =Algorithms.Math.PerfectSquare.NewtonMethod(n);
+		  			System.out.println("Is it a perfect Square :" + isPerfectSquare);
+		 
 		
  }
 }
