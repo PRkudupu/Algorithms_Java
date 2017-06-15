@@ -147,7 +147,7 @@ public class HomeString {
 		 * * Input: "hello"
              Output: "holle"
 		 */
-		/*
+		/* */
 		String s="hello";
 		
 		String reverseVowels=Algorithms.Strings.ReverseVowelsOfString.get(s);
@@ -156,12 +156,12 @@ public class HomeString {
 		{
 		System.out.println("Reversed vowels : "+ c);
 		}
-		*/
+		
 		/**LENGTH OF THE LAST WORD
 		 * * Input: "Prathap Kudupu"
              Output: 5
 		 */
-		/*
+		/* 
         String s="prathap Kudupu";
 		
 		int lengthOfLastWord=Algorithms.Strings.LengthOfLastWord.optimum(s);
@@ -197,11 +197,12 @@ public class HomeString {
 		 * * * Input: "Blog"
               Output: "golB"
 		 */
+		/*
 			 String s="help";
 				
 				String reverse=Algorithms.Strings.ReverseStringRecursion.get(s);
 				
 				System.out.println("Reverse of a string : "+ reverse);
-		
+		*/
  }
 }
